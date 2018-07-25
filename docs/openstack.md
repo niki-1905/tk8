@@ -14,8 +14,8 @@ Get the tk8 repo
 git clone https://github.com/kubernauts/tk8
 cd tk8
 wget https://github.com/kubernauts/tk8/releases/download/v0.3/tk8-linux-openstack-amd64
-chmod +x tk8-linux-opentack-amd64
-mv tk8-linux-opentack-amd64 /user/local/bin/tk8
+chmod +x tk8-linux-openstack-amd64
+mv tk8-linux-openstack-amd64 /usr/local/bin/tk8
 ```
 
 Source your OpenStack rc file , export your OpenStack CA CERT file and Initialize the kubespray repo:
